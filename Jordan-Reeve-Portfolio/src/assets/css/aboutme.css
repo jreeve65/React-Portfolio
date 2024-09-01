@@ -1,0 +1,36 @@
+/* 
+#aboutpageimg{
+background-image: url(../images/spacevideo.mp4) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+ /* aboutme.css */
+
+.container {
+    position: relative; /* Make sure the container is positioned relatively */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Hide any overflow to keep the video contained */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background-video {
+    position: absolute; /* Position the video absolutely within the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire container */
+    z-index: -1; /* Place the video behind the content */
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1; /* Make sure the content is on top of the video */
+    color: white; /* Text color to ensure it's visible against the background */
+    text-align: center; /* Center the content text */
+    padding: 20px; /* Add some padding for better readability */
+  }
+  
