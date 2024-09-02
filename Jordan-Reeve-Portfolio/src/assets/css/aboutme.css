@@ -41,7 +41,7 @@ html, body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  opacity: 0.7;
+  opacity: 0.85;
   
 }
 .img-right-container{
