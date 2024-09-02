@@ -1,36 +1,72 @@
-/* 
-#aboutpageimg{
-background-image: url(../images/spacevideo.mp4) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
- /* aboutme.css */
+/* Reset default margins and paddings */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
-.container {
-    position: relative; /* Make sure the container is positioned relatively */
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden; /* Hide any overflow to keep the video contained */
+/* Full viewport container */
+.full-page-container {
+  position: relative; /* Relative positioning for child absolute positioning */
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  overflow: hidden; /* Hide overflow to prevent scrollbars */
+}
+
+/* Style for the background video */
+.background-video {
+  position: absolute; /* Position absolutely within the container */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the video covers the entire container */
+  z-index: -1; /* Ensure video is behind content */
+}
+
+/* Style for the content */
+.content {
+  position: relative;
+  z-index: 1; /* Ensure content is above the video */
+  color: white; /* Text color to ensure it's visible against the background */
+  text-align: center; /* Center content text */
+  padding: 20px; /* Add some padding for readability */
+}
+
+/* Style for image containers */
+.img-left-container,
+.img-right-container {
+  margin-top: 30px;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  opacity: 0.7;
+  
+}
+.img-right-container{
+  margin-right:30px; /* Center containers */
+}
+
+/* Style for images */
+.img-left-container img,
+.img-right-container img {
+  height: 150px;
+  width: 70%;
+  margin:15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1469px) {
+  .img-left-container img,
+  .img-right-container img {
+    width: 90%; /* Adjust width for smaller screens */
+    height: 100px; /* Maintain aspect ratio */
+  }
+  .img-left-container,
+  .img-right-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    max-width: 700px;
   }
-  
-  .background-video {
-    position: absolute; /* Position the video absolutely within the container */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure the video covers the entire container */
-    z-index: -1; /* Place the video behind the content */
-  }
-  
-  .content {
-    position: relative;
-    z-index: 1; /* Make sure the content is on top of the video */
-    color: white; /* Text color to ensure it's visible against the background */
-    text-align: center; /* Center the content text */
-    padding: 20px; /* Add some padding for better readability */
-  }
-  
+}
