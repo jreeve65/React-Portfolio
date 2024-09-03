@@ -1,0 +1,53 @@
+/* styles.css */
+.container {
+    max-width: 350px;
+    max-height: 400px;
+}
+.card-img {
+    max-width: 500px;
+    height: 450px;
+    object-fit: cover; /* Ensure the video covers the card background */
+}
+
+/* .card-img-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: -400px;
+    max-width: 100%;
+    max-height: 0;
+} */
+.card-img-overlay img{
+    width: 190px;
+}
+.inner-card {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9; /* Background color for the inner card */
+    border: 1px solid #ddd; /* Optional border for better separation */
+    padding: 20px;
+    border-radius: 8px; /* Optional: to match card's rounded corners */
+    width: 240px; /* Adjust the width as needed */
+    max-height: 95%;
+    z-index: 1; /* Ensure it's above the video */
+}
+
+.img-fluid {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 128px;
+    margin-bottom:15px;
+}
