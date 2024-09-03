@@ -1,7 +1,10 @@
 /* styles.css */
-.container {
+/* .container {
     max-width: 350px;
-    max-height: 400px;
+    max-height: 400px; */
+.card{
+    max-width: 350px;
+    max-height: 500px;
 }
 .card-img {
     max-width: 500px;

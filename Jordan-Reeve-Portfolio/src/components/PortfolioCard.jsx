@@ -1,9 +1,9 @@
 import React from "react";
 const PortfolioCard = ({ video, projectImage, projectTitle, projectDescription, projectLink }) => {
     return (
-        <div className="container mt-4">
+        // <div className="container mt-4">
             
-            <div className="card bg-dark text-white position-relative overflow-hidden">
+            <div className="card bg-dark text-white position-relative overflow-hidden m-3">
                 <video className="card-img" autoPlay muted loop>
                     <source src={video} type='video/mp4' />
                     Your browser does not support the video tag.
@@ -24,7 +24,7 @@ const PortfolioCard = ({ video, projectImage, projectTitle, projectDescription, 
                     </div>
                 </div>
             </div>
-        </div>
+        // </div>
     );
 }
 
