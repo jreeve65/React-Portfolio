@@ -5,7 +5,7 @@ import profileImg from "../assets/images/Profile.png";
 import "../assets/css/Portfolio.css"
 export default function Portfolio() {
   return (
-    <div className="container-fluid bg-primary">
+    <div className="bg-dark text-warning mx-0 my-0">
       
       <h1>Portfolio</h1>
       <div className="container d-flex justify-content-center mt-5">

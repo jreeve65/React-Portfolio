@@ -12,7 +12,7 @@ const PortfolioCard = ({ video, projectImage, projectTitle, projectDescription, 
                 
                 <div className="card-img-overlay d-flex flex-direction-column flex-wrap-nowrap align-items-center justify-content-center">
                 
-                    <div className="inner-card card bg-secondary text-dark">
+                    <div className="inner-card card bg-dark text-dark">
                         <img src={projectImage} alt="Project" className="img-fluid mb-2 mt-3" />
                         <div className="card-body bg-light">
                        

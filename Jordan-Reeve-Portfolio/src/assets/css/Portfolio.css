@@ -2,9 +2,14 @@
 /* .container {
     max-width: 350px;
     max-height: 400px; */
+body{
+    background-color: black;
+    
+}
 .card{
     max-width: 350px;
     max-height: 500px;
+    border: none;
 }
 .card-img {
     max-width: 500px;
@@ -33,11 +38,11 @@
     justify-content: center;
     align-items: center;
     background-color: #f9f9f9; /* Background color for the inner card */
-    border: 1px solid #ddd; /* Optional border for better separation */
+    border: none; /* Optional border for better separation */
     padding: 20px;
     border-radius: 8px; /* Optional: to match card's rounded corners */
-    width: 240px; /* Adjust the width as needed */
-    max-height: 95%;
+    width: 226px; /* Adjust the width as needed */
+    max-height: 98%;
     z-index: 1; /* Ensure it's above the video */
 }
 
