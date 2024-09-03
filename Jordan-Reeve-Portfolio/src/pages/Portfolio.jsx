@@ -1,6 +1,7 @@
 import React from "react";
 import PortfolioCard from "../components/PortfolioCard";
 import background from "../assets/images/cpbackground.mp4";
+import bonfire from "../assets/images/bonfirelogo.png";
 import profileImg from "../assets/images/Profile.png";
 import "../assets/css/Portfolio.css"
 export default function Portfolio() {
@@ -12,8 +13,8 @@ export default function Portfolio() {
       <div className="row">
       <PortfolioCard
         video={background}
-        projectImage={profileImg}
-        projectTitle="Bonfire"
+        projectImage={bonfire}
+        projectTitle="Project-Bonfire"
         projectDescription="For more info"
         projectLink="https://www.google.com/"
       />
