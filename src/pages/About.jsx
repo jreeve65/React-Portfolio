@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/css/aboutme.css';
 import spaceVideo from '../assets/images/spacevideo.mp4';
-import ImgLeft from '../components/imgLeft';
+import ImgLeft from '../components/ImgLeft';
 import ImgRight from '../components/ImgRight';
 const fAHText = "Father to two wonderful children and happily married.  I enjoy spending time with my wife and children.  My family and I enjoy playing games, watching movies, Cooking, Sight seeing and good company.  When I have a minute to my self I enjoy exploring new ideas, playing Video games, Shooting, Lifting weights,and enjoying a pipe or cigar.";
 const sdevText ="As a software developer I am proficient in these technologies and languages: JavaScript, CSS, HTML, React, MongoDB, Sequelize, Handlebars, RESTFUL Api Development and MERN. Im always on the look out for learning new techniques and skills and enjoy sharing what I know as well.";
