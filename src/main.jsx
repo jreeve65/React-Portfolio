@@ -8,8 +8,8 @@ import App from './App';
 import Error from './pages/Error';
 import Contact from './pages/Contact';
 import About from './pages/About';
-// import Blog from './pages/Portfolio';
 import Portfolio from './pages/Portfolio';
+import CoverPage from './pages/CoverPage';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -20,6 +20,10 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        element: <CoverPage />,
+      },
+      {
+        path: '/About',
         element: <About />,
       },
       {

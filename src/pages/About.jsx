@@ -1,6 +1,5 @@
 import React from 'react';
 import '../assets/css/aboutme.css';
-import spaceVideo from '../assets/images/spacevideo.mp4';
 import ImgLeft from '../components/ImgLeft';
 import ImgRight from '../components/ImgRight';
 const fAHText = "Father to two wonderful children and happily married.  I enjoy spending time with my wife and children.  My family and I enjoy playing games, watching movies, Cooking, Sight seeing and good company.  When I have a minute to my self I enjoy exploring new ideas, playing Video games, Shooting, Lifting weights,and enjoying a pipe or cigar.";
@@ -11,11 +10,7 @@ import profilePhoto from'../assets/images/professional.png'
 import marineImg from '../assets/images/Profile.png'
 const AboutMe = () => {
   return (
-    <div className='full-page-container' >
-      <video className="background-video" autoPlay muted loop>
-        <source src={spaceVideo} type='video/mp4' />
-        Your browser does not support the video tag.
-      </video>
+    <div className='full-page-container bg-dark' >
       <div className="content text-warning">
         <h1>About Me</h1>
         <ImgLeft img={familyimg} title="Father and Husband" content={fAHText} key={1}/>
