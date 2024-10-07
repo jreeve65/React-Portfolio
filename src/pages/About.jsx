@@ -10,7 +10,7 @@ import profilePhoto from'../assets/images/professional.png'
 import marineImg from '../assets/images/Profile.png'
 const AboutMe = () => {
   return (
-    <div className='full-page-container bg-dark' >
+    <div className='full-page-container bg-dark About-Me' >
       <div className="content text-warning">
         <h1>About Me</h1>
         <ImgLeft img={familyimg} title="Father and Husband" content={fAHText} key={1}/>

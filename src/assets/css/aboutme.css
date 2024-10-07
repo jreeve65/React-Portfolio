@@ -1,3 +1,4 @@
+
 /* Reset default margins and paddings */
 html, body {
   margin: 0;
@@ -11,6 +12,12 @@ html, body {
   height: 100vh; /* Full viewport height */
   width: 100vw; /* Full viewport width */
   overflow: hidden; /* Hide overflow to prevent scrollbars */
+  
+}
+.About-Me {
+  background-image: url("../images/About-me-Wallpaper.png");
+  background-size:  cover;
+  background-repeat: no-repeat;
 }
 
 /* Style for the background video */
