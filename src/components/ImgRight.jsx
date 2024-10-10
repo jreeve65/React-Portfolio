@@ -7,7 +7,7 @@ const ImgRight = ({ img, title, content }) => {
       <h2>{title}</h2>
       <div className="d-inline-flex justify-content space-between align-items-center bg-dark">
          
-        <p>{content}</p>
+        <p className='fs-4'>{content}</p>
         <img src={img} alt="a picture relating to the title" />   
       </div>
     </div>

@@ -11,14 +11,10 @@ html, body {
   position: relative; /* Relative positioning for child absolute positioning */
   height: 100vh; /* Full viewport height */
   width: 100vw; /* Full viewport width */
-  overflow: hidden; /* Hide overflow to prevent scrollbars */
+  overflow: auto; /* Hide overflow to prevent scrollbars */
   
 }
-.About-Me {
-  background-image: url("../images/About-me-Wallpaper.png");
-  background-size:  cover;
-  background-repeat: no-repeat;
-}
+
 
 /* Style for the background video */
 .background-video {
@@ -29,6 +25,23 @@ html, body {
   height: 100%;
   object-fit: cover; /* Ensure the video covers the entire container */
   z-index: -1; /* Ensure video is behind content */
+}
+
+/*for the background image on about me*/
+.About-Me {
+  background-image: url("../images/About-me-Wallpaper.png");
+  background-size:  cover;
+  background-repeat: no-repeat;
+}
+/*for Soft Dev component container sizing*/
+.icons-container{
+  max-width: 150px;
+  max-height: 300px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  border: solid;
+  border-color:skyblue;
+  border-radius: 20%;
 }
 
 /* Style for the content */
@@ -45,25 +58,28 @@ html, body {
 
 /* Style for image containers */
 .img-left-container,
-.img-right-container {
+.img-right-container,
+.soft-dev-container{
   margin-top: 30px;
-  max-width: 800px;
+  max-width: 100%;
+  margin: 30px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   opacity: 100;
   
 }
-.img-right-container{
-  margin-right:30px; /* Center containers */
-}
+
+
 
 /* Style for images */
 .img-left-container img,
 .img-right-container img {
-  height: 150px;
-  width: 50%;
+  height: 200px;
+  width: 20%;
   margin:15px;
+  margin-top:0px;
+  margin-bottom: 30px;
 }
 
 /* Responsive adjustments */
