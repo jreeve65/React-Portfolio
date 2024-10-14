@@ -12,8 +12,11 @@ import marineImg from '../assets/images/Profile.png'
 const AboutMe = () => {
   return (
     <div className='full-page-container bg-dark About-Me' >
+
+<img src={profilePhoto} alt=" a profile picture of me" id='prof-pic' />
       
       <div className="content text-warning">
+      
       <h1>About Me</h1>
         <div className='d-flex flex-column justify-content-evenly align-items-center' id='about-me-content'>
         <SoftDev title ="A Software Developer" content ={sdevText} key ={2}/>

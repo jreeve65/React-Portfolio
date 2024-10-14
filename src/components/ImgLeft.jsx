@@ -4,7 +4,7 @@ import React from 'react';
 const ImgLeft = ({ img, title, content }) => {
   return (
     <div className="img-left-container  float-start">
-      <h2>{title}</h2>
+      <h2 className='text-warning'>{title}</h2>
       <div className="d-inline-flex justify-content space-between align-items-center ">
       <img src={img} alt="a picture relating to the title" />       
         <p className='fs-4'>{content}</p>

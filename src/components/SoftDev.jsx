@@ -3,8 +3,8 @@ import React from 'react';
 // Define SoftDev as a functional component
 const SoftDev = ({ title, content }) => {
     return (
-        <div className="soft-dev-container  float-start">
-            <h2>{title}</h2>
+        <div className="soft-dev-container">
+            <h2 className='text-warning'>{title}</h2>
             <div className="d-inline-flex justify-content space-between align-items-center">
                 <div className="icons-container">
                     
