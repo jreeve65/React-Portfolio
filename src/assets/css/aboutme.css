@@ -51,7 +51,7 @@ html, body {
 /*for Soft Dev component container sizing*/
 .icons-container{
   position: relative;
-  top: -33px;
+  top: -48px;
   max-width: 150px;
   max-height: 300px;
   margin-bottom: 15px;
@@ -94,17 +94,24 @@ html, body {
 }
 .soft-dev-container h3{
   position: relative;
-  left: 300px;
  
+  margin-top: 15px;
+ 
+}
+.soft-dev-container p{
+  position: relative;
+  top: -30px;
 }
 .img-left-container h3{
   position: relative;
-  left:280px
+  
+  margin-top: 10px;
   
 }
 .img-right-container h3{
   position: relative;
-  right:280px
+  
+  margin-top: 10px;
  
 }
 
@@ -117,19 +124,22 @@ width: 165px;
 height: 165px;
 border-radius: 15%;
 position: relative;
-bottom: 25px;
+bottom: 37px;
 margin-left: 15px;
 margin-right: 15px;
+border: solid;
+border-color: skyblue;
+}
+.img-left-container p{
+  position: relative;
+  bottom: 15px;
+}
+.img-right-container p {
+  position: relative;
+  bottom: 15px;
 }
 
 
-/* .img-left-container img,
-.img-right-container img {
-  width: 150px;
-  height: 150px;
-  margin:15px;
-  border-radius: 15%;
-} */
 #prof-pic{
   position: fixed;
   top: 95px;

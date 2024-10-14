@@ -20,7 +20,7 @@ const AboutMe = () => {
       <h1 className='text-start mx-3'>About Me</h1>
         <div className='d-flex flex-column justify-content-evenly align-items-center' id='about-me-content'>
         <SoftDev title ="Software Developer" content ={sdevText} key ={2}/>
-        <ImgRight img={familyimg} title="Father and Husband" content={fAHText} key={1}/>
+        <ImgRight img={familyimg} title="Father & Husband" content={fAHText} key={1}/>
         {/* <ImgRight img={profilePhoto} title="A Software Developer" content ={sdevText} key= {2} id="mid"/> */}
         <ImgLeft img={marineImg} title="Marine Corps Veteran" content={veteranText} key={3}/>
         </div>
