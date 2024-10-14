@@ -7,10 +7,10 @@ import nomad from"../assets/images/nomad.png";
 import "../assets/css/Portfolio.css"
 export default function Portfolio() {
   return (
-    <div className="bg-dark text-warning mx-0 my-0">
+    <div className="bg-dark text-warning mx-0 my-0" id="card-page">
       
       <h1>Portfolio</h1>
-      <div className="container d-flex justify-content-center mt-5">
+      <div className="container-fluid d-flex justify-content-center mt-5">
       <div className="row">
       <PortfolioCard
         video={background}

@@ -6,6 +6,11 @@ body{
     background-color: black;
     
 }
+#card-page{
+    position: relative;
+    top: 98px;
+    max-width: 100%;
+}
 .card{
     max-width: 350px;
     max-height: 500px;

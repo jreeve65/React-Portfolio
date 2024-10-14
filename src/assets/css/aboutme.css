@@ -5,6 +5,17 @@ html, body {
   padding: 0;
   height: 100%;
 }
+.nav-bar{
+  position:fixed;
+  z-index: 100;
+  width: 100% ;
+}
+
+#about-me-content {
+  position: relative;
+  top: 30px;
+
+}
 
 /* Full viewport container */
 .full-page-container {
@@ -37,7 +48,7 @@ html, body {
 .icons-container{
   max-width: 150px;
   max-height: 300px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   margin-left: 15px;
   border: solid;
   border-color:skyblue;
@@ -60,13 +71,18 @@ html, body {
 .img-left-container,
 .img-right-container,
 .soft-dev-container{
-  margin-top: 30px;
+  /* margin-top: 30px; */
   max-width: 100%;
-  margin: 30px;
+  margin: 15px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   opacity: 100;
+  border-radius: 18px;
+  border: solid;
+  border-color:aqua;
+  background-color: #1a4db6;
+  color: lightblue;
   
 }
 
@@ -80,6 +96,7 @@ html, body {
   margin:15px;
   margin-top:0px;
   margin-bottom: 30px;
+  border-radius: 15%;
 }
 
 /* Responsive adjustments */
