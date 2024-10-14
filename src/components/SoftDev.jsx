@@ -4,8 +4,8 @@ import React from 'react';
 const SoftDev = ({ title, content }) => {
     return (
         <div className="soft-dev-container">
-            <h2 className='text-warning'>{title}</h2>
-            <div className="d-inline-flex justify-content space-between align-items-center">
+            <h3 className='text-warning'>{title}</h3>
+            <div className="d-inline-flex justify-content space-between align-items-center ">
                 <div className="icons-container">
                     
                         <img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/html5/html5-original-wordmark.svg" alt="HTML" width="40" height="40" />
@@ -25,7 +25,7 @@ const SoftDev = ({ title, content }) => {
                         <img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/jquery/jquery-original-wordmark.svg" alt="jQuery" width="40" height="40" />
                     
                 </div>
-                <p className='fs-4'>{content}</p>
+                <p className=' text-start mx-4'>{content}</p>
             </div>
         </div>
     );
