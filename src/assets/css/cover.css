@@ -1,0 +1,9 @@
+.full-page-container {
+    position: relative; /* Relative positioning for child absolute positioning */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+}
+.nav-bar{
+    visibility: hidden;
+}

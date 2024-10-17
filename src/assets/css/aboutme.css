@@ -5,6 +5,18 @@ html, body {
   padding: 0;
   height: 100%;
 }
+.messages{
+ 
+  z-index: 100;
+  font-size: 55px;
+  position: relative;
+  top: 380px;
+  
+  color:#07dddd ;
+  text-shadow:-5px 1px black ;
+  border-bottom: #07dddd;
+ 
+}
 .nav-bar{
   position:fixed;
   z-index: 100;
@@ -44,7 +56,8 @@ html, body {
 
 /*for the background image on about me*/
 .About-Me {
-  background-image: url("../images/About-me-Wallpaper.png");
+  background-image: url("../images/about-me-test2.jpg");
+
   background-size:  cover;
   background-repeat: no-repeat;
 }
@@ -57,6 +70,7 @@ html, body {
   margin-bottom: 15px;
   margin-left: 15px;
   border: solid;
+  background-color: whitesmoke;
   border-color:skyblue;
   border-radius: 20%;
 }

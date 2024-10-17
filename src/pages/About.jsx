@@ -11,7 +11,7 @@ import profilePhoto from'../assets/images/professional.png'
 import marineImg from '../assets/images/Profile.png'
 const AboutMe = () => {
   return (
-    <div className='full-page-container bg-dark About-Me' >
+    <div className='full-page-container  About-Me' >
 
 <img src={profilePhoto} alt=" a profile picture of me" id='prof-pic' />
       
