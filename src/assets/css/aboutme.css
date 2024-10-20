@@ -6,6 +6,8 @@ html, body {
   height: 100%;
 }
 
+
+
 .messages{
  
   z-index: 100;
@@ -22,7 +24,9 @@ html, body {
   position:fixed;
   z-index: 100;
   width: 100% ;
+ 
 }
+
 
 #about-me-content {
   position: relative;

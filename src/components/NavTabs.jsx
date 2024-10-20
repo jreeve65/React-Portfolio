@@ -13,7 +13,7 @@ function NavTabs() {
     <div className=' bg-dark text-warning nav-bar'>
       <h1>Jordan Reeve</h1>
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link
           to="/"
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
@@ -22,12 +22,12 @@ function NavTabs() {
         >
           Cover
         </Link>
-      </li>
+      </li> */}
       <li className="nav-item">
         <Link
           to="/About"
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/About' ? 'nav-link active' : 'nav-link text-warning'}
         >
           About
         </Link>
@@ -37,7 +37,7 @@ function NavTabs() {
         <Link
           to="/Portfolio"
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Blog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link text-warning'}
         >
           Portfolio
         </Link>
@@ -46,7 +46,7 @@ function NavTabs() {
         <Link
           to="/Contact"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link text-warning'}
         >
           Contact
         </Link>
