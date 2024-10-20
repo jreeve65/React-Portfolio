@@ -4,6 +4,3 @@
     width: 100vw; /* Full viewport width */
     overflow: hidden; /* Hide overflow to prevent scrollbars */
 }
-.nav-bar{
-    visibility: hidden;
-}
