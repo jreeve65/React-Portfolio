@@ -1,6 +1,6 @@
 import React from "react";
 import PortfolioCard from "../components/PortfolioCard";
-import background from "../assets/images/cpbackground.mp4";
+// import background from "../assets/images/cpbackground.mp4";
 import bonfire from "../assets/images/bonfirelogo.png";
 import profileImg from "../assets/images/Profile.png";
 import nomad from"../assets/images/nomad.png";
@@ -12,7 +12,7 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <div className="container-fluid d-flex justify-content-center mt-5">
       <div className="row">
-      <PortfolioCard
+      {/* <PortfolioCard
         video={background}
         projectImage={bonfire}
         projectTitle="Project-Bonfire"
@@ -32,7 +32,7 @@ export default function Portfolio() {
         projectTitle="Comming soon!"
         projectDescription="For more info"
         projectLink="https://www.google.com/"
-      />
+      /> */}
       
     
        </div>
