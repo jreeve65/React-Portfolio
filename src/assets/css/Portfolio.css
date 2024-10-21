@@ -12,6 +12,7 @@ body{
     overflow: hidden;
 }
 .card{
+    margin: 15px;
     position: relative;
     width: 300px;
     height: 400px;
@@ -20,6 +21,22 @@ body{
     border-radius: 20px;
     
     background: red;
+}
+.front-image{
+    position: absolute;
+    width: 280px;
+    left:10px;
+    height:370px;
+    top:15px;
+    border-radius: 20px;
+}
+.title{
+    position: absolute;
+    top: 20px;
+    left:20px;
+    color: white;
+    z-index: 100;
+    font-size: 30px;
 }
 
 .card-back{
