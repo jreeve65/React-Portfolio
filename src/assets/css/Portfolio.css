@@ -1,7 +1,3 @@
-/* styles.css */
-/* .container {
-    max-width: 350px;
-    max-height: 400px; */
 body{
     background-color: black;
     
@@ -16,62 +12,16 @@ body{
     overflow: hidden;
 }
 .card{
-    max-width: 350px;
-    max-height: 500px;
-    border: none;
-}
-.card-img {
-    max-width: 500px;
-    height: 450px;
-    object-fit: cover; /* Ensure the video covers the card background */
-}
-.card-img-inner{
-    position: absolute;
-    
-    
-    left:50px;
-    max-width: 250px;
+    position: relative;
+    width: 300px;
     height: 400px;
-    object-fit: cover;
+
+    border:1px solid black;
+    border-radius: 20px;
+    
+    background: red;
 }
 
-.card-img-overlay img{
-    position: relative;
-    bottom: 70px;
-    left:3px;
-    width: 150px;
-    height: 200px;
-
-}
-/* .inner-card {
-    position: relative;
-    right: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #f9f9f9; 
-    border: none; 
-    padding: 20px;
-    border-radius: 8px; 
-    width:0; 
-    max-height:0;
-    z-index: 1; 
-} */
-
-.img-fluid {
-    max-width: 100%; /* Ensure the image is responsive */
-    height: auto; /* Maintain aspect ratio */
-}
-.card-body{
-    position: absolute;
-    left: -175px;
-    top:40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 128px;
-    margin-bottom:15px;
+.card-back{
+    background: blue;
 }
