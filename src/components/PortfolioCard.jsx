@@ -1,7 +1,7 @@
 import React from "react";
 import {useState} from 'react'
 import ReactCardFlip from "react-card-flip";
-const PortfolioCard = ({projectImg, Title}) => {
+const PortfolioCard = ({projectImg, Title, Description}) => {
     const [isFlipped,setIsFlipped] = useState(false);
 
     function flipCard(){
@@ -19,7 +19,8 @@ const PortfolioCard = ({projectImg, Title}) => {
                     <img src={projectImg} alt=" an image representing a project" className=" front-image"/>
                 </div>
                 <div className="card card-back" onMouseLeave={flipCard}>
-                    <h1>Sample Title</h1>
+                    <h6>Description:</h6>
+                    <p> {Description}</p>
                 </div>
             </ReactCardFlip>
         </div>
