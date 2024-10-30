@@ -13,13 +13,13 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <div className="container-fluid d-flex justify-content-center mt-5">
         <div className="row">
-          <PortfolioCard projectImg={cosmicQuest} Title='Cosmic Quest' Description={description}/>
+          <PortfolioCard projectImg={cosmicQuest} Title='Cosmic Quest' Description={description} Githuburl="some url"/>
           
 
 
 
         </div>
-        <PortfolioCard projectImg={nomad} Title ='Nomad' Description={description}></PortfolioCard>
+        <PortfolioCard projectImg={nomad} Title ='Nomad' Description={description} Githuburl="some url" Appurl="some url"></PortfolioCard>
         {/*add new row here for future projects */}
 
       </div>
