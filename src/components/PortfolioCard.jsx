@@ -1,6 +1,8 @@
 import React from "react";
 import {useState} from 'react'
 import ReactCardFlip from "react-card-flip";
+import { handleCardButtons } from "../utils/helpers";
+
 const PortfolioCard = ({projectImg, Title, Description, Githuburl = null,Appurl = null}) => {
     const [isFlipped,setIsFlipped] = useState(false);
 
@@ -65,7 +67,8 @@ const PortfolioCard = ({projectImg, Title, Description, Githuburl = null,Appurl 
                     <div className="card card-back" onMouseLeave={flipCard}>
                         <h6>Description:</h6>
                         <p> {Description}</p>
-                        <h4>this will display both buttons</h4>
+                        <button  type = "button" className="btn btn-success" onClick= {()=>handleCardButtons(Githuburl)}>Repository</button>
+                        <button type="button" className="btn btn-primary" onClick={()=>handleCardButtons(Appurl)}>App</button>
                     </div>
                 </ReactCardFlip>
             </div>
