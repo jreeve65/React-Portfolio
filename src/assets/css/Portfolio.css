@@ -40,7 +40,7 @@ body{
 }
 
 .card-back{
-    background: white;
+    background: wheat;
 }
 .card-back p{
     text-indent: 20px;
@@ -51,4 +51,20 @@ body{
     margin-left: 10px;
     
     margin-top: 10px;
+}
+
+.card-info{
+    margin: 10px;
+    border: solid tan 6px;
+    
+}
+
+button{
+    width: 120px;
+    margin: 15px
+}
+.button-element{
+    display: flex;
+    justify-content: space-around;
+
 }

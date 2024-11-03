@@ -23,8 +23,10 @@ const PortfolioCard = ({projectImg, Title, Description, Githuburl = null,Appurl 
                         <img src={projectImg} alt=" an image representing a project" className=" front-image"/>
                     </div>
                     <div className="card card-back" onMouseLeave={flipCard}>
+                        <div className="card-info">
                         <h6>Description:</h6>
                         <p> {Description}</p>
+                        </div>
                         <h4>no buttons</h4>
                     </div>
                 </ReactCardFlip>
@@ -43,9 +45,13 @@ const PortfolioCard = ({projectImg, Title, Description, Githuburl = null,Appurl 
                         <img src={projectImg} alt=" an image representing a project" className=" front-image"/>
                     </div>
                     <div className="card card-back" onMouseLeave={flipCard}>
+                        <div className="card-info">
                         <h6>Description:</h6>
                         <p> {Description}</p>
-                        <h4>this will have a git hub button</h4>
+                        </div>
+                        <div className="button-element">
+                        <button  type = "button" className="btn btn-success" onClick= {()=>handleCardButtons(Githuburl)}>Repository</button>
+                        </div>
                     </div>
                 </ReactCardFlip>
             </div>
@@ -65,10 +71,14 @@ const PortfolioCard = ({projectImg, Title, Description, Githuburl = null,Appurl 
                         <img src={projectImg} alt=" an image representing a project" className=" front-image"/>
                     </div>
                     <div className="card card-back" onMouseLeave={flipCard}>
+                        <div className="card-info">
                         <h6>Description:</h6>
                         <p> {Description}</p>
+                        </div>
+                        <div className="button-element">
                         <button  type = "button" className="btn btn-success" onClick= {()=>handleCardButtons(Githuburl)}>Repository</button>
                         <button type="button" className="btn btn-primary" onClick={()=>handleCardButtons(Appurl)}>App</button>
+                        </div>
                     </div>
                 </ReactCardFlip>
             </div>
