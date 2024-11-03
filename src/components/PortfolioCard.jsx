@@ -49,9 +49,9 @@ const PortfolioCard = ({projectImg, Title, Description, Githuburl = null,Appurl 
                         <h6>Description:</h6>
                         <p> {Description}</p>
                         </div>
-                        <div className="button-element">
+                        
                         <button  type = "button" className="btn btn-success" onClick= {()=>handleCardButtons(Githuburl)}>Repository</button>
-                        </div>
+                       
                     </div>
                 </ReactCardFlip>
             </div>
@@ -75,10 +75,10 @@ const PortfolioCard = ({projectImg, Title, Description, Githuburl = null,Appurl 
                         <h6>Description:</h6>
                         <p> {Description}</p>
                         </div>
-                        <div className="button-element">
+                        
                         <button  type = "button" className="btn btn-success" onClick= {()=>handleCardButtons(Githuburl)}>Repository</button>
                         <button type="button" className="btn btn-primary" onClick={()=>handleCardButtons(Appurl)}>App</button>
-                        </div>
+                        
                     </div>
                 </ReactCardFlip>
             </div>
