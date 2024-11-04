@@ -1,7 +1,6 @@
 import React from "react";
 import PortfolioCard from "../components/PortfolioCard";
 import cosmicQuest from "../assets/images/cq3.png";
-import profileImg from "../assets/images/Profile.png";
 import deathStar from "../assets/images/Death-star.png"
 import nomad from "../assets/images/nomad.png";
 import cardBack from"../assets/images/default-cardback.png"
