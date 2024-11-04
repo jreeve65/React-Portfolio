@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="text-center">
       <h1>Thanks for stoping by!</h1>
       <h3>Check me out or reach me @</h3>
-        <div className="icons-box">
+        <div className="icons-box border-top border-warning">
      
      <img className="img" src={githubLogo} alt="git hub logo" onClick={()=>{window.open('https://github.com/jreeve65')}}/>
      <img className="img" src={linkedin} alt="git hub logo" onClick={()=>{window.open('https://www.linkedin.com/in/jordan-reeve-86277a272/')}}/>
