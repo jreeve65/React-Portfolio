@@ -63,6 +63,8 @@ html, body {
 
 /*for the background image on about me*/
 .About-Me {
+  position: relative;
+  right: 20px;
   background-image: url("../images/about-me-test2.jpg");
 
   background-size:  cover;

@@ -1,14 +1,28 @@
-#myform{
-    width: 400px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.container-xxl{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  .container-fluid{
+    position:absolute;
+    top: 100px;
+    right: 1px;
+    height: 100vh;
+    overflow: none;
+  }
+
+  .img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+  }
+
+  .img:hover{
+    cursor: pointer;
+  }
+
+  .icons-box{
+    margin: 20px;
+    max-width: 450px;
+  }
